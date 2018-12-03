@@ -1,0 +1,11 @@
+{
+	"images": ["assets/player.png"],
+	"frames": [
+		[0, 0, 600, 700], 
+		[600, 0, 600, 700]
+	],
+	"animations": {
+		"cenario_painel_f":[1], 
+		"cenario_painel_m":[0]
+	}
+}

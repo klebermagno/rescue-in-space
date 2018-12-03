@@ -1,0 +1,77 @@
+body {
+	background-color: #E9E9E9;
+	margin: 0;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#gameWrapper {
+	position: absolute;
+	margin: auto;
+}
+
+canvas, img {
+	margin: auto;
+	-webkit-transform-origin:0px 0px;
+	transform-orgin: 0 0;
+	position: absolute;
+}
+ 
+.submit-form {
+    width: 200px;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0;
+    visibility: hidden;
+}
+
+input[type="text"] {
+	font-size: 1.5em;
+	width: 200px;
+	height: 40px;
+	margin: auto;
+}
+
+#submit_btn {
+	border-style: solid;
+    border-width: 1px;
+    border-color: #FFF;
+	font: 24px Arial;
+	background-color: #d2354c;
+	color: #FFF;
+	height: 40px;
+	width: 150px;
+	padding-left: 10px;
+	margin: auto;
+}
+
+#formResizer {
+    position: absolute;
+    margin: auto;
+}
+
+@font-face {
+  font-family: 'KristenITC-Regular';
+  src: url('KristenITC-Regular.eot?#iefix') format('embedded-opentype'),  url('KristenITC-Regular.woff') format('woff'), url('KristenITC-Regular.ttf')  format('truetype'), url('KristenITC-Regular.svg#KristenITC-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family:'HoboStd-Regular';
+	src: url('HoboStd_gdi.eot');
+	src: url('HoboStd_gdi.eot?#iefix') format('embedded-opentype'),
+		url('HoboStd_gdi.woff') format('woff'),
+		url('HoboStd_gdi.ttf') format('truetype'),
+		url('HoboStd_gdi.svg#HoboStd-Regular') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}

@@ -1,0 +1,21 @@
+{
+	"images": ["assets/gameSprites.png"],
+	"frames": [
+		[2, 2, 118, 118],
+		[122, 2, 118, 118],
+		[242, 2, 118, 118],
+		[362, 2, 118, 118],
+		[482, 2, 118, 118]
+	],
+	"animations": {
+		"explosion":{
+			"frames":[0,1,2,3,4],
+			"speed":1
+		},
+		"explosion1":[0],
+		"explosion2":[1],
+		"explosion3":[2],
+		"explosion4":[3],
+		"explosion5":[4]
+	}
+}
